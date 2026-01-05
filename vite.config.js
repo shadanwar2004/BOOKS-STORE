@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/BOOKS-STORE/",   // 👈 repo name EXACT
+  base: "/BOOKS-STORE/",   // 👈 MUST match repo name
 })
